@@ -10,6 +10,8 @@ public class AreaOfTriangle {
 		double s = sc.nextDouble();
 		double a= (Math.sqrt(3)/4)*(Math.pow(s, 2));
 		System.out.print("the are of triangle is "+a);
+		System.out.print("My name is Rupendra ");
+		
 
 	}
 
