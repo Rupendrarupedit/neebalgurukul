@@ -11,6 +11,7 @@ public class DaysToYears {
 		int Years, months, weeks, Days;
 		
 		Years= days/365;
+		days=days%365;
 		months= (days%365)/30;
 		
 		days = days-(365*Years+30*months);
