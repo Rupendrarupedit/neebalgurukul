@@ -8,8 +8,8 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.neebalgurukul.exception.IdNotFoundException;
 import com.neebalgurukul.model.Student;
-import com.neebalgurukul.test.IdNotFoundException;
 
 public class StudentDAO {
 

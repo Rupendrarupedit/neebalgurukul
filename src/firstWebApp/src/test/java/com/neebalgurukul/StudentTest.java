@@ -20,12 +20,14 @@ public class StudentTest {
 			{
 				System.out.println(obj.getName()+" "+obj.getEmail()+" "+obj.getCourse()+" "+obj.getAge());
 			}
-//			Student a = dao.getOneStudent(2);
-//			System.out.println(a);
+
 			
-//			dao.insertStudent("abc","abc@gmail.com","python", 23);
-//		    dao.deleteStudent(3);
-//		    dao.updateStudentEmail(1, "rpd@gmail.com");
+//			sdao.insertStudent("abc","abc@gmail.com","python", 23);
+//			System.out.println("New student inserted");
+//		    sdao.deleteStudent(3);
+//			System.out.println(" student deleted");
+//		    sdao.updateStudentEmail(1, "rpd@gmail.com");
+//			System.out.println(" student details updated");
 		}
 		catch(Exception e) {
 			e.printStackTrace();
